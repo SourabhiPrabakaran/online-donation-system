@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: donation-app
+
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: donation
+
+  template:
+    metadata:
+      labels:
+        app: donation
+
+    spec:
+      containers:
+      - name: donation-container
+        image: donation-app
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 8080

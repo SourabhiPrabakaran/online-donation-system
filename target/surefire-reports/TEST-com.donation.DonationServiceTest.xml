@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.donation.DonationServiceTest" time="0.053" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.donation.DonationServiceTest" time="0.075" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="25"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25.0.2\bin"/>
-    <property name="sun.java.command" value="C:\Users\soura\AppData\Local\Temp\surefire2286132033355991081\surefirebooter15777667225870472194.jar C:\Users\soura\AppData\Local\Temp\surefire2286132033355991081 2026-04-15T18-13-12_089-jvmRun1 surefire8776124679695573114tmp surefire_08140469133844021373tmp"/>
+    <property name="sun.java.command" value="C:\Users\soura\AppData\Local\Temp\surefire9948805252932190691\surefirebooter15742316879273153050.jar C:\Users\soura\AppData\Local\Temp\surefire9948805252932190691 2026-04-15T18-42-39_964-jvmRun1 surefire15751189284050425660tmp surefire_08587589919938543080tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\soura\OneDrive\Desktop\online-donation-system\target\test-classes;C:\Users\soura\OneDrive\Desktop\online-donation-system\target\classes;C:\Users\soura\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.0\junit-jupiter-5.9.0.jar;C:\Users\soura\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.0\junit-jupiter-api-5.9.0.jar;C:\Users\soura\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\soura\.m2\repository\org\junit\platform\junit-platform-commons\1.9.0\junit-platform-commons-1.9.0.jar;C:\Users\soura\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\soura\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.0\junit-jupiter-params-5.9.0.jar;C:\Users\soura\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.0\junit-jupiter-engine-5.9.0.jar;C:\Users\soura\.m2\repository\org\junit\platform\junit-platform-engine\1.9.0\junit-platform-engine-1.9.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\soura\AppData\Local\Temp\surefire2286132033355991081\surefirebooter15777667225870472194.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\soura\AppData\Local\Temp\surefire9948805252932190691\surefirebooter15742316879273153050.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="25.0.2+10-LTS-69"/>
@@ -59,9 +59,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase name="testValidDonation" classname="com.donation.DonationServiceTest" time="0.028">
+  <testcase name="testValidDonation" classname="com.donation.DonationServiceTest" time="0.039">
     <system-out><![CDATA[Donation processed: User
 ]]></system-out>
   </testcase>
-  <testcase name="testInvalidDonation" classname="com.donation.DonationServiceTest" time="0.003"/>
+  <testcase name="testInvalidDonation" classname="com.donation.DonationServiceTest" time="0.005"/>
 </testsuite>
